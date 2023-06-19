@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(87,85,83);
+  background: linear-gradient(90deg, rgba(87,85,83,0.9920343137254902) 5%, rgba(14,14,14,1) 45%, rgba(68,66,66,1) 95%);
+}
+h3{
+  font-family:'PT Mono', monoespaciado; 
+  font-size: 45px;
+  color:#F2F2F2;
+  text-align: center;
+}
+h4, h5{
+  font-family:'PT Mono', monoespaciado; 
+  color:#F2F2F2;
+  padding: 30px;
+}
+header {
+ 
+  position: fixed;
+  width: 100%;
+}
+.navbar  {
+  background-color:#0D0D0D;
+}
+.logo{
+  font-family:"Aboreto", cursive;
+  font-size: 30px;
+  color: #ffffff;
+ 
+}
+.logo:hover{
+  color:#D9B88F;
+}
+.navbar-toggler {
+  border: none !important;
+  color:#ffffff;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+#menu a{
+ font-family: 'PT Mono', monoespaciado;
+ color:#F2F2F2;
+ font-size: 20px;
+ cursor: pointer;
+}
+#menu a:hover{
+  color:#D9B88F;
+}
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0.1, 10, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../image/inicio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#hero h1 {
+  color: #ffffff;
+  font-family:"Aboreto", cursive; 
+  font-size: 150px;
+  text-align: center;
+
+}
+#hero h2 {
+  color: #ffffff;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  animation: mymove 5s infinite;
+}
+
+ .titulo h2 {
+  font-family: "Advent Pro", sans-serif;
+  color: #ffffff;
+  font-size: 90px;
+  text-align: center;
+  padding-top: 80px;
+}
+.texto{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+}
+ .texto p{
+  color:#F2F2F2;
+  font-family: 'PT Mono', monospace;
+  font-size: 25px;
+  padding: 80px ;
+  
+}
+#video{
+  width: 400px;
+  height:400px;
+  padding: 30px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0.1, 10, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
+  margin-bottom: 200px;
+}
+.flexbox-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+fotos {
+  margin: 5px;
+}
+
+.imagen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.imagen img {
+  width: 300px;
+  height: 300px;
+}
+.imagen img:hover {
+  border: 20px solid;
+}
+
+div div img {
+  margin: 30px;
+}
+#contacto span:hover{
+color:#D9B88F;
+cursor: pointer;
+}
+#contacto a:hover{
+  color:#D9B88F;
+  }
+.formulario {
+  background-color:#D9B88F;
+  display: inline-block;
+  width: 600px;
+  height: 500px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0.1, 10, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
+  margin-bottom: 50px;
+}
+
+.form-container{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+.form {
+  font-family:'PT Mono', monospace; 
+  font-size: 20px;
+  text-align: center;
+  color:#F2F2F2;
+}
+.form a{
+  color:#0D0D0D;
+}
+.form a:hover {
+  color:#D9B88F;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #F2F2F2;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+input[type="email"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #F2F2F2;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #F2F2F2;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color:#0D0D0D;
+  color:#ffffff;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input:hover {
+  background-color:#D9B88F;
+  color:#0D0D0D;
+}
+.login{
+  margin-top: 100px;
+  margin-bottom: 150px;
+  display: inline-block;
+  background-color:#D9B88F;
+  width: 350px;
+  height: 450px;
+  padding: 20px 25px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0.1, 10, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
+   
+  
+   
+}
+.login input[type="password"],
+select {
+  width:100%;
+  padding: 12px 20px;
+  margin:12px 0;
+  display: inline-block;
+  border: 2px solid #F2F2F2;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.login input[type="text"],select {
+  width:100%;
+  padding: 12px 20px;
+  margin:12px 0;
+  display: inline-block;
+  border: 2px solid #F2F2F2;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.login button {
+  background-color:#0D0D0D;
+  color:#ffffff;
+  width: 100%;
+  padding: 12px 20px;
+  margin:12px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.login button:hover {
+ background-color:#D9B88F;
+ color:#0D0D0D;
+}
+ form a{
+  color:#F2F2F2;
+  font-family:'PT Mono', monospace; 
+  font-size: 15px;
+  padding: 30px;
+ }
+ form a:hover{
+  color:#D9B88F;
+ }
+ form h4{
+  text-align: center;
+ }
+  #contacto{
+    text-align:center ;
+  }
+#contacto a{
+  color:#F2F2F2;
+  padding: 10px;
+
+}
+span{
+  color:#F2F2F2;
+}
+iframe{
+  width: 500px;
+  height: 500px;
+}
+footer {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background:#0D0D0D;
+  color:#F2F2F2;
+  font-family:'PT Mono', monospace; 
+  font-size: 15px;
+}
+footer a {
+color:#F2F2F2;
+
+}
+footer svg{
+  height: 25px;
+  width: 25px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+footer a:hover {
+  color:#D9B88F;
+}
+
+
+/*queries*/
+@media screen and (max-width: 600px) {
+  .imagen img {
+    width: 80%;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  img:hover {
+    transform: scale(1.10);
+  }
+}
+@media screen and (max-width: 600px) {
+  .video source {
+    width: 70%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  iframe {
+    width: 80%;
+    margin-top: 0;
+  }
+}
