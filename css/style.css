@@ -337,27 +337,53 @@ footer a:hover {
 
 
 /*queries*/
-@media screen and (max-width: 600px) {
+
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  
+  #hero h1 {
+   
+    font-size: 80px;
+    text-align: center;
+  
+  }
+  #hero h2 {
+   
+    font-size:60px;
+    text-align: center;
+    
+  }
+  .titulo h2{
+    font-size:50px ;
+  }
+  .texto p{
+    font-size: 20px;
+  }
+  .video source {
+    width: 80%;
+    margin-top: 0;
+  }
+  
+}
+
+
+@media screen  and (max-width: 600px) {
   .imagen img {
     width: 80%;
     margin-top: 0;
   }
-}
-@media screen and (min-width: 992px) {
-  img:hover {
-    transform: scale(1.10);
-  }
-}
-@media screen and (max-width: 600px) {
-  .video source {
-    width: 70%;
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 600px) {
   iframe {
     width: 80%;
     margin-top: 0;
   }
 }
+@media screen  and (min-width: 992px) {
+  img:hover {
+    transform: scale(1.10);
+  }
+}
+
+
+
+
+
